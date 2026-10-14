@@ -20,7 +20,7 @@ public class Main {
         System.out.println("Емкость батареи: " + tesla.getBatteryCapacity() + " кВт⋅ч");
 
         System.out.println("\n=== Изменение данных через сеттеры ===");
-        gasCar.setOwnerName("Иван Петров");
+        gasCar.setOwnerName("Шизойд Парфентиевич");
         tesla.setBatteryCapacity(82.0);
 
         System.out.println("Новый владелец Car: " + gasCar.getOwnerName());
