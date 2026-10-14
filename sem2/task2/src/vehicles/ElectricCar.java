@@ -21,7 +21,6 @@ public class ElectricCar extends Car {
         return super.toString() + String.format(" | Батарея: %.1f кВт⋅ч", batteryCapacity);
     }
 
-
     public double getBatteryCapacity() {
         return batteryCapacity;
     }
