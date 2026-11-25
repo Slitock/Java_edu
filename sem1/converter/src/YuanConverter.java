@@ -11,6 +11,6 @@ public class YuanConverter {
 
     double roubles = ROUBLES_PER_YUAN * yuan;
 
-    System.out.printf("%2d CNY = %2f RUB", yuan, roubles);
+    System.out.printf("%d CNY = %.2f RUB%n", yuan, roubles);
   }
 }

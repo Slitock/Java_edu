@@ -60,6 +60,6 @@ public class Car {
   }
 
   public void To_String() {
-    System.out.printf("Model: %s| License: %s| Color: %s| Year: $d| Age: %d\n", model, license, color, year, getAge()); 
+    System.out.printf("Model: %s| License: %s| Color: %s| Year: %d| Age: %d\n", model, license, color, year, getAge()); 
   }
 }

@@ -9,11 +9,11 @@ public class Main {
    carCustom.To_String();
    carFull.To_String();
 
-   System.out.println("---Изменение полей сеттором ---");
+   System.out.println("---Изменение полей сеттером ---");
    carDefault.setModel("Moskuich");
    carDefault.setColor("Green");
    carDefault.setYear(1066);
 
-   System.out.printf("Обнавленные данные: \n  Model: %s\n  Color: %s\n  Age: %d", carDefault.getModel(), carDefault.getColor(), carDefault.getAge());
+   System.out.printf("Обновленные данные: \n  Model: %s\n  Color: %s\n  Age: %d", carDefault.getModel(), carDefault.getColor(), carDefault.getAge());
  } 
 }
